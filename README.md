@@ -5,10 +5,14 @@
 To Install this mod, ensure you have the LiFx FrameWork installed [Download here](https://lifxmod.com/)
 
 
-### This is a Mega Pack, consisting of 12 mods
+### This is a Mega Pack, consisting of 14 mods
 Jorvik Mod V1.0 - This is a LiFx Conversion of the Original Jorvikmod created by Odin One eye
 
 Admin Oversight - Reports Admin Actions in game for Player transparency 
+
+LiFx BellTowerFix - this is a client side mod only 
+
+LiFx Gui Changes - This changes things like Loading screens and ingame menus
 
 LiFx Extras - This is automated Container changes and more rooms in houses.
 
