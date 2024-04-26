@@ -27,6 +27,7 @@ package LiFxFullServerFix
   function LiFxFullServerFix::dbInit() {
     dbi.Update("ALTER TABLE `account` ADD COLUMN `VIPFlag` TINYINT NULL DEFAULT NULL AFTER `SteamID`;");
     dbi.Update("ALTER TABLE `character` ADD COLUMN `LastUpdated` TIMESTAMP NULL DEFAULT NULL AFTER `DeleteTimestamp`");
+    dbi.Update("CREATE TABLE IF NOT EXISTS `LiFx_character` ( `id` INT UNSIGNED NOT NULL, `active` BIT NULL DEFAULT NULL, `loggedIn` TIMESTAMP NULL DEFAULT NULL, `loggedOut` TIMESTAMP NULL DEFAULT NULL, PRIMARY KEY (`id`), CONSTRAINT `fk_character_id` FOREIGN KEY (`id`) REFERENCES `character` (`ID`) ON UPDATE NO ACTION ON DELETE CASCADE) COLLATE='utf8_unicode_ci';");
     dbi.Update("DROP TRIGGER IF EXISTS `character_before_update`;");
     %character_before_update = "CREATE TRIGGER `character_before_update` BEFORE UPDATE ON `character`; FOR EACH ROW BEGIN\n";
     %character_before_update = %character_before_update @ "IF(NEW.GeoID != OLD.GeoID OR NEW.GeoAlt != OLD.GeoAlt) THEN\n";
