@@ -71,7 +71,7 @@ package LiFxFullServerFix
     dbi.Update(%items_before_update);
   }
   function LiFxFullServerFix::version() {
-    return "1.5.1.VIP";
+    return "1.6.1.VIP";
   }
 
   function LiFxFullServerFix::onConnectClient(%this, %client) {
