@@ -18,6 +18,9 @@ if(!isObject($LiFx::FullServerFixIdleTimeout))
 
 package LiFxFullServerFix
 {
+  function LiFxFullServerFix::CharacterTable() {
+    return "LiFx_character";
+  }
   function LiFxFullServerFix::setup() {
     LiFx::registerCallback($LiFx::hooks::onPostConnectRoutineCallbacks, onPostConnectRequest, LiFxFullServerFix);
     LiFx::registerCallback($LiFx::hooks::onInitServerDBChangesCallbacks, dbInit, LiFxFullServerFix);
@@ -27,7 +30,8 @@ package LiFxFullServerFix
   function LiFxFullServerFix::dbInit() {
     dbi.Update("ALTER TABLE `account` ADD COLUMN `VIPFlag` TINYINT NULL DEFAULT NULL AFTER `SteamID`;");
     dbi.Update("ALTER TABLE `character` ADD COLUMN `LastUpdated` TIMESTAMP NULL DEFAULT NULL AFTER `DeleteTimestamp`");
-    dbi.Update("CREATE TABLE IF NOT EXISTS `LiFx_character` ( `id` INT UNSIGNED NOT NULL, `active` BIT NULL DEFAULT NULL, `loggedIn` TIMESTAMP NULL DEFAULT NULL, `loggedOut` TIMESTAMP NULL DEFAULT NULL, PRIMARY KEY (`id`), CONSTRAINT `fk_character_id` FOREIGN KEY (`id`) REFERENCES `character` (`ID`) ON UPDATE NO ACTION ON DELETE CASCADE) COLLATE='utf8_unicode_ci';");
+    dbi.Update("DROP TABLE IF EXISTS `" @ LiFxFullServerFix::CharacterTable() @ "`");
+    dbi.Update("CREATE TABLE IF NOT EXISTS `" @ LiFxFullServerFix::CharacterTable() @ "` ( `id` INT UNSIGNED NOT NULL, `active` BIT NULL DEFAULT NULL, `loggedIn` TIMESTAMP NULL DEFAULT NULL, `loggedOut` TIMESTAMP NULL DEFAULT NULL, PRIMARY KEY (`id`), CONSTRAINT `fk_character_id` FOREIGN KEY (`id`) REFERENCES `character` (`ID`) ON UPDATE NO ACTION ON DELETE CASCADE) COLLATE='utf8_unicode_ci';");
     dbi.Update("DROP TRIGGER IF EXISTS `character_before_update`;");
     %character_before_update = "CREATE TRIGGER `character_before_update` BEFORE UPDATE ON `character`; FOR EACH ROW BEGIN\n";
     %character_before_update = %character_before_update @ "IF(NEW.GeoID != OLD.GeoID OR NEW.GeoAlt != OLD.GeoAlt) THEN\n";
@@ -43,7 +47,7 @@ package LiFxFullServerFix
 	  %items_after_update = %items_after_update @ "SELECT lc.id FROM `items` i\n";
 		%items_after_update = %items_after_update @ "LEFT JOIN `containers` co ON i.ContainerID = co.ID\n";
 		%items_after_update = %items_after_update @ "LEFT JOIN `character` ch ON co.ID = ch.RootContainerID\n";
-		%items_after_update = %items_after_update @ "LEFT JOIN `lifx_character` lc ON lc.id = ch.ID\n";
+		%items_after_update = %items_after_update @ "LEFT JOIN `" @ LiFxFullServerFix::table() @ "` lc ON lc.id = ch.ID\n";
 	  %items_after_update = %items_after_update @ "WHERE i.ID = OLD.ID\n";
 	  %items_after_update = %items_after_update @ "LIMIT 1\n";
 	  %items_after_update = %items_after_update @ ") as id ON id.id = chr.ID\n";
@@ -58,7 +62,7 @@ package LiFxFullServerFix
 	  %items_before_update = %items_before_update @ "SELECT lc.id FROM `items` i\n";
 		%items_before_update = %items_before_update @ "LEFT JOIN `containers` co ON i.ContainerID = co.ID\n";
 		%items_before_update = %items_before_update @ "LEFT JOIN `character` ch ON co.ID = ch.RootContainerID\n";
-		%items_before_update = %items_before_update @ "LEFT JOIN `lifx_character` lc ON lc.id = ch.ID\n";
+		%items_before_update = %items_before_update @ "LEFT JOIN `" @ LiFxFullServerFix::CharacterTable() @ "` lc ON lc.id = ch.ID\n";
 	  %items_before_update = %items_before_update @ "WHERE i.ID = OLD.ID\n";
 	  %items_before_update = %items_before_update @ "LIMIT 1\n";
 	  %items_before_update = %items_before_update @ ") as id ON id.id = chr.ID\n";
@@ -83,7 +87,7 @@ package LiFxFullServerFix
           Name = %name;
         };
         %client.ConnectedTime = getUnixTime();
-        dbi.Select(LiFxFullServerFix, "VIPCheck", "SELECT a.VIPFlag AS VIPFlag, c.ID AS ClientId, lc.active as Active, (SELECT aaa.VIPFlag FROM `account` aaa LEFT JOIN `character` cc ON cc.AccountID = aaa.ID LEFT JOIN `lifx_character` lfccc ON lfccc.id = cc.ID WHERE aaa.ID = " @ %client.getAccountId() @ " AND lfccc.active = 1 AND aaa.VIPFlag = 1) ClientVIP FROM `lifx_character` lc LEFT JOIN `character` c ON c.ID = lc.id LEFT JOIN `account` a ON a.ID = " @ %client.getAccountId() @ " LEFT JOIN `account` ca ON ca.ID = c.AccountID WHERE TIMESTAMPDIFF(MINUTE,c.LastUpdated,CURRENT_TIMESTAMP) > " @ $LiFx::FullServerFixIdleTimeout @ " ORDER BY ca.VIPFlag ASC, lc.active DESC, TIMESTAMPDIFF(MINUTE,c.LastUpdated,CURRENT_TIMESTAMP) DESC LIMIT 1");
+        dbi.Select(LiFxFullServerFix, "VIPCheck", "SELECT a.VIPFlag AS VIPFlag, c.ID AS ClientId, lc.active as Active, (SELECT aaa.VIPFlag FROM `account` aaa LEFT JOIN `character` cc ON cc.AccountID = aaa.ID LEFT JOIN `" @ LiFxFullServerFix::CharacterTable() @ "` lfccc ON lfccc.id = cc.ID WHERE aaa.ID = " @ %client.getAccountId() @ " AND lfccc.active = 1 AND aaa.VIPFlag = 1) ClientVIP FROM `" @ LiFxFullServerFix::CharacterTable() @ "` lc LEFT JOIN `character` c ON c.ID = lc.id LEFT JOIN `account` a ON a.ID = " @ %client.getAccountId() @ " LEFT JOIN `account` ca ON ca.ID = c.AccountID WHERE TIMESTAMPDIFF(MINUTE,c.LastUpdated,CURRENT_TIMESTAMP) > " @ $LiFx::FullServerFixIdleTimeout @ " ORDER BY ca.VIPFlag ASC, lc.active DESC, TIMESTAMPDIFF(MINUTE,c.LastUpdated,CURRENT_TIMESTAMP) DESC LIMIT 1");
     }
     dbi.Update("UPDATE `character` SET LastUpdated = now() WHERE AccountID=" @ %client.getAccountId());
   }
