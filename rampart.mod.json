@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "LiFx-MegaPack",
+  "name": "LiFx Mega Pack",
+  "version": "1.1.0",
+  "description": "Bundle of 13\u002B LiFx mods (Jorvik, Church, AdminOversight, Healer, KillFeed, Knool-Pack, FullServerFix, Loot, OfflineRaidProtection, OnlineAlignment, TradepostMaintenance, Extras, etc.) packaged for one-shot install.",
+  "authors": [
+    "lif-x community"
+  ],
+  "loadOrderHint": 100,
+  "files": {
+    "overlay": [
+      {
+        "src": "mods/",
+        "dest": "mods/"
+      },
+      {
+        "src": "data/ai/",
+        "dest": "data/ai/"
+      },
+      {
+        "src": "data/weather/",
+        "dest": "data/weather/"
+      },
+      {
+        "src": "data/objects_types.xml",
+        "dest": "data/objects_types.xml"
+      },
+      {
+        "src": "data/recipe.xml",
+        "dest": "data/recipe.xml"
+      },
+      {
+        "src": "data/recipe_requirement.xml",
+        "dest": "data/recipe_requirement.xml"
+      },
+      {
+        "src": "yolauncher/modpack/mods/Jorvik/",
+        "dest": "yolauncher/modpack/mods/Jorvik/"
+      },
+      {
+        "src": "yolauncher/modpack/mods/LiFx/",
+        "dest": "yolauncher/modpack/mods/LiFx/"
+      }
+    ],
+    "dataPatches": [
+      {
+        "target": "data/admin_lands_abilities.xml",
+        "patch": "patches/admin_lands_abilities.patch"
+      },
+      {
+        "target": "data/cm_createchar.xml",
+        "patch": "patches/cm_createchar.patch"
+      },
+      {
+        "target": "data/cm_equipTypes.xml",
+        "patch": "patches/cm_equipTypes.patch"
+      },
+      {
+        "target": "data/cm_forest_maintenance.xml",
+        "patch": "patches/cm_forest_maintenance.patch"
+      },
+      {
+        "target": "data/cm_objects.xml",
+        "patch": "patches/cm_objects.patch"
+      },
+      {
+        "target": "data/cm_spawn_patterns.xml",
+        "patch": "patches/cm_spawn_patterns.patch"
+      },
+      {
+        "target": "data/gatherables.xml",
+        "patch": "patches/gatherables.patch"
+      },
+      {
+        "target": "data/skill_types.xml",
+        "patch": "patches/skill_types.patch"
+      }
+    ]
+  }
+}

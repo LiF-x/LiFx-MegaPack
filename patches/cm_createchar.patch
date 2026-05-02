@@ -1,0 +1,32 @@
+diff --git a/data/cm_createchar.xml b/data/cm_createchar.xml
+index a16f224..949c589 100755
+--- a/data/cm_createchar.xml
++++ b/data/cm_createchar.xml
+@@ -1,11 +1,15 @@
+-<?xml version="1.0" encoding="utf-8"?>
++ <?xml version="1.0" encoding="utf-8"?>
+ <xml>
+-	<items>
+-		<item id="316" amount="1" vik="no" mon="no"/>
+-		<item id="1063" amount="1" eur="no" mon="no"/>
+-		<item id="951" amount="1" vik="no" eur="no"/>
+-		<item id="297" amount="1" vik="no" mon="no"/>
+-		<item id="1137" amount="1" eur="no" mon="no"/>
+-		<item id="1138" amount="1" vik="no" eur="no"/>
+-	</items>
+-</xml>
++   <items>
++      <item id="1463" amount="1" vik="yes" mon="yes" eur="yes"/>
++      <item id="301" amount="1" vik="yes" mon="yes" eur="yes"/>
++      <item id="1465" amount="1" vik="yes" mon="yes" eur="yes"/>
++      <item id="1466" amount="1" vik="yes" mon="yes" eur="yes"/>
++      <item id="1467" amount="1" vik="yes" mon="yes" eur="yes"/>
++      <item id="789" amount="40" vik="yes" mon="yes" eur="yes"/>
++      <item id="342" amount="100" vik="yes" mon="yes" eur="yes"/>
++      <item id="44" amount="1" vik="yes" mon="yes" eur="yes"/>
++      <item id="1580" amount="1" vik="yes" mon="yes" eur="yes"/>
++      <item id="1663" amount="1" vik="yes" mon="yes" eur="yes"/>
++   </items>
++</xml>
+\ No newline at end of file
+
