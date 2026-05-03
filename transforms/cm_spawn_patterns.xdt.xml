@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <spawn_patterns xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
-  <pattern probability="4" substances="7 8 9 25" xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <pattern probability="4" substances="7 8 9 25" xdt:Transform="Insert">
 		<family name="BearData" count="1 1" quality="50 70" />
 	</pattern>
-  <pattern probability="12" substances="7 8 25" xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <pattern probability="12" substances="7 8 25" xdt:Transform="Insert">
 		<family name="BoarData" count="2 2" quality="30 50" />
 	</pattern>
-  <pattern probability="1" substances="7" xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <pattern probability="1" substances="7" xdt:Transform="Insert">
 		<family name="ChieftainData" count="3 3" quality="20 60" />
 	</pattern>
-  <pattern probability="10" substances="7 8 9 25" xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <pattern probability="10" substances="7 8 9 25" xdt:Transform="Insert">
 		<family name="DeerMaleData" count="1 1" quality="50 70" />
 	</pattern>
-  <pattern probability="8" substances="7 8 125 145" xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <pattern probability="8" substances="7 8 125 145" xdt:Transform="Insert">
 		<family name="MuttonData" count="2 2" quality="20 60" />
 	</pattern>
-  <pattern probability="1" substances="7 125 145" xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <pattern probability="1" substances="7 125 145" xdt:Transform="Insert">
 		<family name="WitchData" count="3 3" quality="20 60" />
 	</pattern>
-  <pattern probability="7" substances="7 8 26 175 145 135" xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <pattern probability="7" substances="7 8 26 175 145 135" xdt:Transform="Insert">
 		<family name="BearData" count="1 1" quality="30 70" />
 	</pattern>
-  <pattern probability="1" substances="7 9 10 27" xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <pattern probability="1" substances="7 9 10 27" xdt:Transform="Insert">
 		<family name="MoleData" count="2 2" quality="10 50" />
 	</pattern>
-  <pattern probability="1" substances="3 8 9 10 153 154 155 156 105 25" xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <pattern probability="1" substances="3 8 9 10 153 154 155 156 105 25" xdt:Locator="Condition(@probability='1' and family/@name='WildHorseData')" xdt:Transform="Replace">
 		<family name="WildHorseData" count="1 1" quality="50 70" />
 		<family name="AurochsCowData" count="2 2" quality="10 30" />
 	</pattern>
-  <pattern probability="5" substances="7 8" xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <pattern probability="5" substances="7 8" xdt:Transform="Insert">
 		<family name="BearKnoolData" count="1 1" quality="40 80" />
 	</pattern>
-  <pattern probability="6" substances="7 8 9 10 3 11" xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <pattern probability="6" substances="7 8 9 10 3 11" xdt:Transform="Insert">
 		<family name="HunterData" count="1 1" quality="20 40" />
 	</pattern>
+  <pattern xdt:Locator="Condition(@probability='4' and family/@name='GrouseData')" xdt:Transform="Remove" />
+  <pattern xdt:Locator="Condition(@probability='12' and family/@name='GrouseData')" xdt:Transform="Remove" />
+  <pattern xdt:Locator="Condition(@probability='1' and family/@name='GrouseData')" xdt:Transform="Remove" />
+  <pattern xdt:Locator="Condition(@probability='10' and family/@name='HareData')" xdt:Transform="Remove" />
+  <pattern xdt:Locator="Condition(@probability='8' and family/@name='HareData')" xdt:Transform="Remove" />
+  <pattern xdt:Locator="Condition(@probability='1' and family/@name='HareData')" xdt:Transform="Remove" />
+  <pattern xdt:Locator="Condition(@probability='7' and family/@name='BoarData')" xdt:Transform="Remove" />
+  <pattern xdt:Locator="Condition(@probability='1' and family/@name='AurochsBullData')" xdt:Transform="Remove" />
+  <pattern xdt:Locator="Condition(@probability='5' and family/@name='BearData')" xdt:Transform="Remove" />
+  <pattern xdt:Locator="Condition(@probability='6' and family/@name='WolfData')" xdt:Transform="Remove" />
 </spawn_patterns>

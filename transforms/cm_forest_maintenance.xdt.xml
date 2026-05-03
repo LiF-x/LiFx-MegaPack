@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ForestMaintenance xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
-  <TreeAgingSpeed xdt:Locator="Match(id)" xdt:Transform="Replace">7</TreeAgingSpeed>
+  <TreeAgingSpeed xdt:Transform="Replace">7</TreeAgingSpeed>
   <terrain id="442" xdt:Locator="Match(id)" xdt:Transform="Replace"> <!-- ДУБОВАЯ РОЩА С ВЯЗОМ И ШЕЛКОМ -->
 		<BiomesCount>6</BiomesCount> <!-- Amount of biomes per terrain. Minimal allowed value is 1 -->
 		<MaxBiomeDensity>0.5</MaxBiomeDensity> <!-- 0..1 value that determines maximum amount of trees (of all types in total) allowed on a specific substance type (the same value applies to every substance type separately). Aimed to regulate the existance of too dense forest regions for every tree type and soil type at once, to achieve more preferable performance and has nothing to do with how the forest actually looks -->
