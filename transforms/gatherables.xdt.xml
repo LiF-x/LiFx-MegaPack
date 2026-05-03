@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <gatherables xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='0')" xdt:Transform="Replace">
         <type>0</type>
         <shape>art/models/3d/environment/groundcover/forestgrasses/goutweedcroproot01.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -11,7 +11,7 @@
         <description>taproot</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='1')" xdt:Transform="Replace">
         <type>1</type>
         <shape>art/models/3d/environment/groundcover/forestgrasses/blueberry01.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -22,7 +22,7 @@
         <description>berries</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='2')" xdt:Transform="Replace">
         <type>2</type>
         <shape>art/models/3d/environment/mushrooms/mushrooma.dts</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -33,7 +33,7 @@
         <description>mushroom</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='3')" xdt:Transform="Replace">
         <type>3</type>
         <shape>art/models/3d/environment/mushrooms/mushroomb.dts</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -44,7 +44,7 @@
         <description>mushroom</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='4')" xdt:Transform="Replace">
         <type>4</type>
         <shape>art/models/3d/environment/mushrooms/mushroomc.dts</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -55,7 +55,7 @@
         <description>mushroom</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='5')" xdt:Transform="Replace">
         <type>5</type>
         <shape>art/models/3d/environment/mushrooms/mushroomd.dts</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -66,7 +66,7 @@
         <description>mushroom</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='6')" xdt:Transform="Replace">
         <type>6</type>
         <shape>art/models/3d/environment/cropsspeedtree/wheatwild01.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -77,7 +77,7 @@
         <description>wheat</description>
         <quantity>10</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='7')" xdt:Transform="Replace">
         <type>7</type>
         <shape>art/models/3d/environment/cropsspeedtree/peawild01.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -88,7 +88,7 @@
         <description>peas</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='8')" xdt:Transform="Replace">
         <type>8</type>
         <shape>art/models/3d/environment/cropsspeedtree/cabbagewild01.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -99,7 +99,7 @@
         <description>cabbage</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='9')" xdt:Transform="Replace">
         <type>9</type>
         <shape>art/models/3d/environment/cropsspeedtree/onionwild01.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -110,7 +110,7 @@
         <description>onion</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='10')" xdt:Transform="Replace">
         <type>10</type>
         <shape>art/models/3d/environment/cropsspeedtree/carrotwild01.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -121,7 +121,7 @@
         <description>carrot</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='11')" xdt:Transform="Replace">
         <type>11</type>
         <shape>art/models/3d/environment/cropsspeedtree/flaxwild01.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -132,7 +132,7 @@
         <description>flax</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='12')" xdt:Transform="Replace">
         <type>12</type>
         <shape>art/models/3d/environment/cropsspeedtree/grapewild01.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -143,7 +143,7 @@
         <description>grape</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='13')" xdt:Transform="Replace">
         <type>13</type>
         <shape>art/models/3d/environment/cropsspeedtree/potatowild01.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -154,7 +154,7 @@
         <description>potato</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='14')" xdt:Transform="Replace">
         <type>14</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/plantfiber01.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -165,7 +165,7 @@
         <description>fiber</description>
         <quantity>10</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='17')" xdt:Transform="Replace">
         <type>17</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -176,7 +176,7 @@
         <description>commonHerb</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='18')" xdt:Transform="Replace">
         <type>18</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -187,7 +187,7 @@
         <description>commonHerb</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='19')" xdt:Transform="Replace">
         <type>19</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -198,7 +198,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='20')" xdt:Transform="Replace">
         <type>20</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -209,7 +209,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='21')" xdt:Transform="Replace">
         <type>21</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -220,7 +220,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='22')" xdt:Transform="Replace">
         <type>22</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -231,7 +231,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='23')" xdt:Transform="Replace">
         <type>23</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -242,7 +242,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='24')" xdt:Transform="Replace">
         <type>24</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -253,7 +253,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='25')" xdt:Transform="Replace">
         <type>25</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -264,7 +264,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='26')" xdt:Transform="Replace">
         <type>26</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -275,7 +275,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='27')" xdt:Transform="Replace">
         <type>27</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -286,7 +286,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='28')" xdt:Transform="Replace">
         <type>28</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -297,7 +297,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='29')" xdt:Transform="Replace">
         <type>29</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -308,7 +308,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='30')" xdt:Transform="Replace">
         <type>30</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -319,7 +319,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='31')" xdt:Transform="Replace">
         <type>31</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -330,7 +330,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='32')" xdt:Transform="Replace">
         <type>32</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -341,7 +341,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='33')" xdt:Transform="Replace">
         <type>33</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -352,7 +352,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='34')" xdt:Transform="Replace">
         <type>34</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -363,7 +363,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='35')" xdt:Transform="Replace">
         <type>35</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -374,7 +374,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='36')" xdt:Transform="Replace">
         <type>36</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -385,7 +385,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='37')" xdt:Transform="Replace">
         <type>37</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -396,7 +396,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='38')" xdt:Transform="Replace">
         <type>38</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -407,7 +407,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='39')" xdt:Transform="Replace">
         <type>39</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -418,7 +418,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='40')" xdt:Transform="Replace">
         <type>40</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -429,7 +429,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='41')" xdt:Transform="Replace">
         <type>41</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -440,7 +440,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='42')" xdt:Transform="Replace">
         <type>42</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -451,7 +451,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='43')" xdt:Transform="Replace">
         <type>43</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -462,7 +462,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='44')" xdt:Transform="Replace">
         <type>44</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -473,7 +473,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='45')" xdt:Transform="Replace">
         <type>45</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -484,7 +484,7 @@
         <description>commonHerb</description>
         <quantity>10</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='46')" xdt:Transform="Replace">
         <type>46</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -495,7 +495,7 @@
         <description>commonHerb</description>
         <quantity>4</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='47')" xdt:Transform="Replace">
         <type>47</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -506,7 +506,7 @@
         <description>commonHerb</description>
         <quantity>4</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='48')" xdt:Transform="Replace">
         <type>48</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -517,7 +517,7 @@
         <description>commonHerb</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='49')" xdt:Transform="Replace">
         <type>49</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -528,7 +528,7 @@
         <description>commonHerb</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='50')" xdt:Transform="Replace">
         <type>50</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -539,7 +539,7 @@
         <description>commonHerb</description>
         <quantity>4</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='51')" xdt:Transform="Replace">
         <type>51</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -550,7 +550,7 @@
         <description>commonHerb</description>
         <quantity>4</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='52')" xdt:Transform="Replace">
         <type>52</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -561,7 +561,7 @@
         <description>commonHerb</description>
         <quantity>4</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='53')" xdt:Transform="Replace">
         <type>53</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -572,7 +572,7 @@
         <description>commonHerb</description>
         <quantity>4</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='54')" xdt:Transform="Replace">
         <type>54</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -583,7 +583,7 @@
         <description>commonHerb</description>
         <quantity>4</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='55')" xdt:Transform="Replace">
         <type>55</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -594,7 +594,7 @@
         <description>commonHerb</description>
         <quantity>5</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='56')" xdt:Transform="Replace">
         <type>56</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -605,7 +605,7 @@
         <description>commonHerb</description>
         <quantity>4</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='57')" xdt:Transform="Replace">
         <type>57</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -616,7 +616,7 @@
         <description>commonHerb</description>
         <quantity>4</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='58')" xdt:Transform="Replace">
         <type>58</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -627,7 +627,7 @@
         <description>commonHerb</description>
         <quantity>4</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='59')" xdt:Transform="Replace">
         <type>59</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -638,7 +638,7 @@
         <description>commonHerb</description>
         <quantity>3</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='60')" xdt:Transform="Replace">
         <type>60</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -649,7 +649,7 @@
         <description>commonHerb</description>
         <quantity>3</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='61')" xdt:Transform="Replace">
         <type>61</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -660,7 +660,7 @@
         <description>commonHerb</description>
         <quantity>3</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='62')" xdt:Transform="Replace">
         <type>62</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -671,7 +671,7 @@
         <description>commonHerb</description>
         <quantity>3</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='63')" xdt:Transform="Replace">
         <type>63</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -682,7 +682,7 @@
         <description>commonHerb</description>
         <quantity>3</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='64')" xdt:Transform="Replace">
         <type>64</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -693,7 +693,7 @@
         <description>commonHerb</description>
         <quantity>3</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='65')" xdt:Transform="Replace">
         <type>65</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -704,7 +704,7 @@
         <description>commonHerb</description>
         <quantity>3</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='66')" xdt:Transform="Replace">
         <type>66</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -715,7 +715,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='67')" xdt:Transform="Replace">
         <type>67</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -726,7 +726,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='68')" xdt:Transform="Replace">
         <type>68</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -737,7 +737,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='69')" xdt:Transform="Replace">
         <type>69</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -748,7 +748,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='70')" xdt:Transform="Replace">
         <type>70</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -759,7 +759,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='71')" xdt:Transform="Replace">
         <type>71</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -770,7 +770,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='72')" xdt:Transform="Replace">
         <type>72</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -781,7 +781,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='73')" xdt:Transform="Replace">
         <type>73</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -792,7 +792,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='74')" xdt:Transform="Replace">
         <type>74</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -803,7 +803,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='75')" xdt:Transform="Replace">
         <type>75</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -814,7 +814,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='76')" xdt:Transform="Replace">
         <type>76</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -825,7 +825,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='77')" xdt:Transform="Replace">
         <type>77</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -836,7 +836,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='78')" xdt:Transform="Replace">
         <type>78</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -847,7 +847,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='79')" xdt:Transform="Replace">
         <type>79</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -858,7 +858,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='80')" xdt:Transform="Replace">
         <type>80</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -869,7 +869,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='81')" xdt:Transform="Replace">
         <type>81</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -880,7 +880,7 @@
         <description>commonHerb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='82')" xdt:Transform="Replace">
         <type>82</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/common.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -891,7 +891,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='83')" xdt:Transform="Replace">
         <type>83</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -902,7 +902,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='84')" xdt:Transform="Replace">
         <type>84</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -913,7 +913,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='85')" xdt:Transform="Replace">
         <type>85</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -924,7 +924,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='86')" xdt:Transform="Replace">
         <type>86</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -935,7 +935,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='87')" xdt:Transform="Replace">
         <type>87</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -946,7 +946,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='88')" xdt:Transform="Replace">
         <type>88</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -957,7 +957,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='89')" xdt:Transform="Replace">
         <type>89</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -968,7 +968,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='90')" xdt:Transform="Replace">
         <type>90</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -979,7 +979,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='91')" xdt:Transform="Replace">
         <type>91</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -990,7 +990,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='92')" xdt:Transform="Replace">
         <type>92</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1001,7 +1001,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='93')" xdt:Transform="Replace">
         <type>93</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1012,7 +1012,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='94')" xdt:Transform="Replace">
         <type>94</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1023,7 +1023,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='95')" xdt:Transform="Replace">
         <type>95</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1034,7 +1034,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='96')" xdt:Transform="Replace">
         <type>96</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1045,7 +1045,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='97')" xdt:Transform="Replace">
         <type>97</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1056,7 +1056,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='98')" xdt:Transform="Replace">
         <type>98</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1067,7 +1067,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='99')" xdt:Transform="Replace">
         <type>99</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1078,7 +1078,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='100')" xdt:Transform="Replace">
         <type>100</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1089,7 +1089,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='101')" xdt:Transform="Replace">
         <type>101</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1100,7 +1100,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='102')" xdt:Transform="Replace">
         <type>102</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1111,7 +1111,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='103')" xdt:Transform="Replace">
         <type>103</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1122,7 +1122,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='104')" xdt:Transform="Replace">
         <type>104</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1133,7 +1133,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='105')" xdt:Transform="Replace">
         <type>105</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1144,7 +1144,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='106')" xdt:Transform="Replace">
         <type>106</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1155,7 +1155,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='107')" xdt:Transform="Replace">
         <type>107</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1166,7 +1166,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='108')" xdt:Transform="Replace">
         <type>108</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1177,7 +1177,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='109')" xdt:Transform="Replace">
         <type>109</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1188,7 +1188,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='110')" xdt:Transform="Replace">
         <type>110</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1199,7 +1199,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='111')" xdt:Transform="Replace">
         <type>111</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1210,7 +1210,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='112')" xdt:Transform="Replace">
         <type>112</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1221,7 +1221,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='113')" xdt:Transform="Replace">
         <type>113</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1232,7 +1232,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='114')" xdt:Transform="Replace">
         <type>114</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1243,7 +1243,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='115')" xdt:Transform="Replace">
         <type>115</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1254,7 +1254,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='116')" xdt:Transform="Replace">
         <type>116</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1265,7 +1265,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='117')" xdt:Transform="Replace">
         <type>117</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1276,7 +1276,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='118')" xdt:Transform="Replace">
         <type>118</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1287,7 +1287,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='119')" xdt:Transform="Replace">
         <type>119</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1298,7 +1298,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='120')" xdt:Transform="Replace">
         <type>120</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1309,7 +1309,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='121')" xdt:Transform="Replace">
         <type>121</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1320,7 +1320,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='122')" xdt:Transform="Replace">
         <type>122</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1331,7 +1331,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='123')" xdt:Transform="Replace">
         <type>123</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1342,7 +1342,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='124')" xdt:Transform="Replace">
         <type>124</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1353,7 +1353,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='125')" xdt:Transform="Replace">
         <type>125</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1364,7 +1364,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='126')" xdt:Transform="Replace">
         <type>126</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1375,7 +1375,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='127')" xdt:Transform="Replace">
         <type>127</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1386,7 +1386,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='128')" xdt:Transform="Replace">
         <type>128</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1397,7 +1397,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='129')" xdt:Transform="Replace">
         <type>129</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1408,7 +1408,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='130')" xdt:Transform="Replace">
         <type>130</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1419,7 +1419,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='131')" xdt:Transform="Replace">
         <type>131</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1430,7 +1430,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='132')" xdt:Transform="Replace">
         <type>132</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1441,7 +1441,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='133')" xdt:Transform="Replace">
         <type>133</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1452,7 +1452,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='134')" xdt:Transform="Replace">
         <type>134</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1463,7 +1463,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='135')" xdt:Transform="Replace">
         <type>135</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1474,7 +1474,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='136')" xdt:Transform="Replace">
         <type>136</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1485,7 +1485,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='137')" xdt:Transform="Replace">
         <type>137</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1496,7 +1496,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='138')" xdt:Transform="Replace">
         <type>138</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1507,7 +1507,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='139')" xdt:Transform="Replace">
         <type>139</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1518,7 +1518,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='140')" xdt:Transform="Replace">
         <type>140</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1529,7 +1529,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='141')" xdt:Transform="Replace">
         <type>141</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1540,7 +1540,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='142')" xdt:Transform="Replace">
         <type>142</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1551,7 +1551,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='143')" xdt:Transform="Replace">
         <type>143</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1562,7 +1562,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='144')" xdt:Transform="Replace">
         <type>144</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1573,7 +1573,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='145')" xdt:Transform="Replace">
         <type>145</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1584,7 +1584,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='146')" xdt:Transform="Replace">
         <type>146</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1595,7 +1595,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='147')" xdt:Transform="Replace">
         <type>147</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1606,7 +1606,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='148')" xdt:Transform="Replace">
         <type>148</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/fresh.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1617,7 +1617,7 @@
         <description>freshherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='149')" xdt:Transform="Replace">
         <type>149</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1628,7 +1628,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='150')" xdt:Transform="Replace">
         <type>150</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1639,7 +1639,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='151')" xdt:Transform="Replace">
         <type>151</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1650,7 +1650,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='152')" xdt:Transform="Replace">
         <type>152</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1661,7 +1661,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='153')" xdt:Transform="Replace">
         <type>153</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1672,7 +1672,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='154')" xdt:Transform="Replace">
         <type>154</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1683,7 +1683,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='155')" xdt:Transform="Replace">
         <type>155</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1694,7 +1694,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='156')" xdt:Transform="Replace">
         <type>156</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1705,7 +1705,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='157')" xdt:Transform="Replace">
         <type>157</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1716,7 +1716,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='158')" xdt:Transform="Replace">
         <type>158</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1727,7 +1727,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='159')" xdt:Transform="Replace">
         <type>159</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1738,7 +1738,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='160')" xdt:Transform="Replace">
         <type>160</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1749,7 +1749,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='161')" xdt:Transform="Replace">
         <type>161</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1760,7 +1760,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='162')" xdt:Transform="Replace">
         <type>162</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1771,7 +1771,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='163')" xdt:Transform="Replace">
         <type>163</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1782,7 +1782,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='164')" xdt:Transform="Replace">
         <type>164</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1793,7 +1793,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='165')" xdt:Transform="Replace">
         <type>165</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1804,7 +1804,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='166')" xdt:Transform="Replace">
         <type>166</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1815,7 +1815,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='167')" xdt:Transform="Replace">
         <type>167</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1826,7 +1826,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='168')" xdt:Transform="Replace">
         <type>168</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1837,7 +1837,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='169')" xdt:Transform="Replace">
         <type>169</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1848,7 +1848,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='170')" xdt:Transform="Replace">
         <type>170</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1859,7 +1859,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='171')" xdt:Transform="Replace">
         <type>171</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1870,7 +1870,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='172')" xdt:Transform="Replace">
         <type>172</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1881,7 +1881,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='173')" xdt:Transform="Replace">
         <type>173</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1892,7 +1892,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='174')" xdt:Transform="Replace">
         <type>174</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1903,7 +1903,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='175')" xdt:Transform="Replace">
         <type>175</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1914,7 +1914,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='176')" xdt:Transform="Replace">
         <type>176</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1925,7 +1925,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='177')" xdt:Transform="Replace">
         <type>177</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1936,7 +1936,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='178')" xdt:Transform="Replace">
         <type>178</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1947,7 +1947,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='179')" xdt:Transform="Replace">
         <type>179</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1958,7 +1958,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='180')" xdt:Transform="Replace">
         <type>180</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1969,7 +1969,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='181')" xdt:Transform="Replace">
         <type>181</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1980,7 +1980,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='182')" xdt:Transform="Replace">
         <type>182</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -1991,7 +1991,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='183')" xdt:Transform="Replace">
         <type>183</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2002,7 +2002,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='184')" xdt:Transform="Replace">
         <type>184</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2013,7 +2013,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='185')" xdt:Transform="Replace">
         <type>185</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2024,7 +2024,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='186')" xdt:Transform="Replace">
         <type>186</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2035,7 +2035,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='187')" xdt:Transform="Replace">
         <type>187</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2046,7 +2046,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='188')" xdt:Transform="Replace">
         <type>188</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2057,7 +2057,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='189')" xdt:Transform="Replace">
         <type>189</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2068,7 +2068,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='190')" xdt:Transform="Replace">
         <type>190</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2079,7 +2079,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='191')" xdt:Transform="Replace">
         <type>191</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2090,7 +2090,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='192')" xdt:Transform="Replace">
         <type>192</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2101,7 +2101,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='193')" xdt:Transform="Replace">
         <type>193</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2112,7 +2112,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='194')" xdt:Transform="Replace">
         <type>194</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2123,7 +2123,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='195')" xdt:Transform="Replace">
         <type>195</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2134,7 +2134,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='196')" xdt:Transform="Replace">
         <type>196</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2145,7 +2145,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='197')" xdt:Transform="Replace">
         <type>197</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2156,7 +2156,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='198')" xdt:Transform="Replace">
         <type>198</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2167,7 +2167,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='199')" xdt:Transform="Replace">
         <type>199</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2178,7 +2178,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='200')" xdt:Transform="Replace">
         <type>200</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2189,7 +2189,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='201')" xdt:Transform="Replace">
         <type>201</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2200,7 +2200,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='202')" xdt:Transform="Replace">
         <type>202</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2211,7 +2211,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='203')" xdt:Transform="Replace">
         <type>203</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2222,7 +2222,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='204')" xdt:Transform="Replace">
         <type>204</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2233,7 +2233,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='205')" xdt:Transform="Replace">
         <type>205</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2244,7 +2244,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='206')" xdt:Transform="Replace">
         <type>206</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2255,7 +2255,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='207')" xdt:Transform="Replace">
         <type>207</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2266,7 +2266,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='208')" xdt:Transform="Replace">
         <type>208</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2277,7 +2277,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='209')" xdt:Transform="Replace">
         <type>209</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2288,7 +2288,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='210')" xdt:Transform="Replace">
         <type>210</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2299,7 +2299,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='211')" xdt:Transform="Replace">
         <type>211</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2310,7 +2310,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='212')" xdt:Transform="Replace">
         <type>212</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2321,7 +2321,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='213')" xdt:Transform="Replace">
         <type>213</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
@@ -2332,7 +2332,7 @@
         <description>prestineherb</description>
         <quantity>15</quantity>
     </gatherable>
-  <gatherable xdt:Locator="Match(id)" xdt:Transform="Replace">
+  <gatherable xdt:Locator="Condition(type='214')" xdt:Transform="Replace">
         <type>214</type>
         <shape>art/models/3d/environment/groundcover/swampgrasses/pristine.stbin</shape>
         <decreaseSoilChance>0.0</decreaseSoilChance>
