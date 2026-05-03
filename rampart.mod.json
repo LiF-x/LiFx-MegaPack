@@ -16,7 +16,7 @@
       },
       {
         "src": "data/ai/",
-        "dest": "data/ai/"
+        "dest": "yolauncher/modpack/data/ai/"
       },
       {
         "src": "data/weather/",
