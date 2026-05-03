@@ -46,7 +46,7 @@
     "dataPatches": [
       {
         "target": "data/admin_lands_abilities.xml",
-        "replace": "data/admin_lands_abilities.xml"
+        "transform": "transforms/admin_lands_abilities.xdt.xml"
       },
       {
         "target": "data/cm_createchar.xml",
@@ -58,7 +58,7 @@
       },
       {
         "target": "data/cm_forest_maintenance.xml",
-        "replace": "data/cm_forest_maintenance.xml"
+        "transform": "transforms/cm_forest_maintenance.xdt.xml"
       },
       {
         "target": "data/cm_objects.xml",
@@ -66,11 +66,11 @@
       },
       {
         "target": "data/cm_spawn_patterns.xml",
-        "replace": "data/cm_spawn_patterns.xml"
+        "transform": "transforms/cm_spawn_patterns.xdt.xml"
       },
       {
         "target": "data/gatherables.xml",
-        "replace": "data/gatherables.xml"
+        "transform": "transforms/gatherables.xdt.xml"
       },
       {
         "target": "data/skill_types.xml",
