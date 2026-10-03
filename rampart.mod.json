@@ -17,52 +17,21 @@
   },
   "distribution": "hostable",
   "dependencies": [
-    "LiF-x/ServerAutoloader"
+    "LiF-x/AdminOversight",
+    "LiF-x/Church",
+    "LiF-x/Containers",
+    "LiF-x/FullServerFixVIP",
+    "LiF-x/Healer",
+    "LiF-x/JorvikMod",
+    "LiF-x/KillFeed",
+    "LiF-x/Knool-Pack",
+    "LiF-x/Loot",
+    "LiF-x/OfflineRaidProtection",
+    "LiF-x/OnlineAlignment",
+    "LiF-x/ServerAutoloader",
+    "LiF-x/TradepostAutoLoader"
   ],
   "loadOrderHint": 300,
-  "objectTypeIds": {
-    "added": [
-      "2359",
-      "2360",
-      "2361",
-      "2362",
-      "2399",
-      "2400",
-      "2401",
-      "2402",
-      "2403",
-      "2404",
-      "2405",
-      "2406",
-      "2408",
-      "2409",
-      "2410",
-      "2411",
-      "2412",
-      "2413",
-      "2485"
-    ],
-    "modified": [
-      "1232",
-      "1671",
-      "1733",
-      "2003"
-    ],
-    "scriptClaimed": [
-      2394,
-      2395,
-      2396,
-      2397,
-      2398,
-      2407,
-      2461,
-      2462,
-      2463,
-      2464,
-      2465,
-      2466
-    ]
-  },
   "files": {
     "overlay": [
       {
@@ -104,21 +73,8 @@
         "transform": "transforms/cm_forest_maintenance.xdt.xml"
       },
       {
-        "target": "data/cm_objects.xml",
-        "transform": "transforms/cm_objects.xdt.xml"
-      },
-      {
-        "target": "data/cm_spawn_patterns.xml",
-        "transform": "transforms/cm_spawn_patterns.xdt.xml"
-      },
-      {
         "target": "data/gatherables.xml",
         "transform": "transforms/gatherables.xdt.xml"
-      },
-      {
-        "target": "data/skill_types.xml",
-        "transform": "transforms/skill_types.xdt.xml",
-        "mergeOps": "transforms/skill_types.merge.json"
       }
     ]
   },
