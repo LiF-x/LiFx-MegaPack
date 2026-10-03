@@ -7,7 +7,48 @@
   "authors": [
     "lif-x community"
   ],
-  "loadOrderHint": 100,
+  "source": {
+    "repo": "LiF-x/LiFx-MegaPack",
+    "commit": "f58243af60eb3a432231d228fd75a0c21ab25234"
+  },
+  "baseline": {
+    "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
+    "steamBuildId": "11261643"
+  },
+  "distribution": "indexed-linked-not-hosted",
+  "dependencies": [
+    "LiF-x/ServerAutoloader"
+  ],
+  "loadOrderHint": 300,
+  "objectTypeIds": {
+    "added": [
+      "2359",
+      "2360",
+      "2361",
+      "2362",
+      "2399",
+      "2400",
+      "2401",
+      "2402",
+      "2403",
+      "2404",
+      "2405",
+      "2406",
+      "2408",
+      "2409",
+      "2410",
+      "2411",
+      "2412",
+      "2413",
+      "2485"
+    ],
+    "modified": [
+      "1232",
+      "1671",
+      "1733",
+      "2003"
+    ]
+  },
   "files": {
     "overlay": [
       {
@@ -16,23 +57,11 @@
       },
       {
         "src": "data/ai/",
-        "dest": "yolauncher/modpack/data/ai/"
+        "dest": "data/ai/"
       },
       {
         "src": "data/weather/",
         "dest": "data/weather/"
-      },
-      {
-        "src": "data/objects_types.xml",
-        "dest": "data/objects_types.xml"
-      },
-      {
-        "src": "data/recipe.xml",
-        "dest": "data/recipe.xml"
-      },
-      {
-        "src": "data/recipe_requirement.xml",
-        "dest": "data/recipe_requirement.xml"
       },
       {
         "src": "yolauncher/modpack/mods/Jorvik/",
@@ -62,7 +91,7 @@
       },
       {
         "target": "data/cm_objects.xml",
-        "replace": "data/cm_objects.xml"
+        "transform": "transforms/cm_objects.xdt.xml"
       },
       {
         "target": "data/cm_spawn_patterns.xml",
