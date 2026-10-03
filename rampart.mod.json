@@ -3,7 +3,7 @@
   "id": "LiFx-MegaPack",
   "name": "LiFx Mega Pack",
   "version": "1.1.0",
-  "description": "Bundle of 13\u002B LiFx mods (Jorvik, Church, AdminOversight, Healer, KillFeed, Knool-Pack, FullServerFix, Loot, OfflineRaidProtection, OnlineAlignment, TradepostMaintenance, Extras, etc.) packaged for one-shot install.",
+  "description": "Bundle of 13+ LiFx mods (Jorvik, Church, AdminOversight, Healer, KillFeed, Knool-Pack, FullServerFix, Loot, OfflineRaidProtection, OnlineAlignment, TradepostMaintenance, Extras, etc.) packaged for one-shot install.",
   "authors": [
     "lif-x community"
   ],
@@ -103,7 +103,8 @@
       },
       {
         "target": "data/skill_types.xml",
-        "transform": "transforms/skill_types.xdt.xml"
+        "transform": "transforms/skill_types.xdt.xml",
+        "mergeOps": "transforms/skill_types.merge.json"
       }
     ]
   }
