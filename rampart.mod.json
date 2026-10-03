@@ -15,7 +15,7 @@
     "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
     "steamBuildId": "11261643"
   },
-  "distribution": "indexed-linked-not-hosted",
+  "distribution": "hostable",
   "dependencies": [
     "LiF-x/ServerAutoloader"
   ],
@@ -47,6 +47,20 @@
       "1671",
       "1733",
       "2003"
+    ],
+    "scriptClaimed": [
+      2394,
+      2395,
+      2396,
+      2397,
+      2398,
+      2407,
+      2461,
+      2462,
+      2463,
+      2464,
+      2465,
+      2466
     ]
   },
   "files": {
@@ -107,5 +121,6 @@
         "mergeOps": "transforms/skill_types.merge.json"
       }
     ]
-  }
+  },
+  "license": "GPL-3.0-only"
 }
