@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "LiFx-MegaPack",
+  "name": "LiFx Mega Pack",
+  "version": "1.1.0",
+  "description": "Bundle of 13+ LiFx mods (Jorvik, Church, AdminOversight, Healer, KillFeed, Knool-Pack, FullServerFix, Loot, OfflineRaidProtection, OnlineAlignment, TradepostMaintenance, Extras, etc.) packaged for one-shot install.",
+  "authors": [
+    "lif-x community"
+  ],
+  "source": {
+    "repo": "LiF-x/LiFx-MegaPack",
+    "commit": "f58243af60eb3a432231d228fd75a0c21ab25234"
+  },
+  "baseline": {
+    "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
+    "steamBuildId": "11261643"
+  },
+  "distribution": "hostable",
+  "dependencies": [
+    "LiF-x/AdminOversight",
+    "LiF-x/Church",
+    "LiF-x/Containers",
+    "LiF-x/FullServerFixVIP",
+    "LiF-x/Healer",
+    "LiF-x/JorvikMod",
+    "LiF-x/KillFeed",
+    "LiF-x/Knool-Pack",
+    "LiF-x/Loot",
+    "LiF-x/OfflineRaidProtection",
+    "LiF-x/OnlineAlignment",
+    "LiF-x/ServerAutoloader",
+    "LiF-x/TradepostAutoLoader"
+  ],
+  "loadOrderHint": 300,
+  "files": {
+    "overlay": [
+      {
+        "src": "mods/",
+        "dest": "mods/"
+      },
+      {
+        "src": "data/ai/",
+        "dest": "data/ai/"
+      },
+      {
+        "src": "data/weather/",
+        "dest": "data/weather/"
+      },
+      {
+        "src": "yolauncher/modpack/mods/Jorvik/",
+        "dest": "yolauncher/modpack/mods/Jorvik/"
+      },
+      {
+        "src": "yolauncher/modpack/mods/LiFx/",
+        "dest": "yolauncher/modpack/mods/LiFx/"
+      }
+    ],
+    "dataPatches": [
+      {
+        "target": "data/admin_lands_abilities.xml",
+        "transform": "transforms/admin_lands_abilities.xdt.xml"
+      },
+      {
+        "target": "data/cm_createchar.xml",
+        "transform": "transforms/cm_createchar.xdt.xml"
+      },
+      {
+        "target": "data/cm_equipTypes.xml",
+        "transform": "transforms/cm_equipTypes.xdt.xml"
+      },
+      {
+        "target": "data/cm_forest_maintenance.xml",
+        "transform": "transforms/cm_forest_maintenance.xdt.xml"
+      },
+      {
+        "target": "data/gatherables.xml",
+        "transform": "transforms/gatherables.xdt.xml"
+      }
+    ]
+  },
+  "license": "GPL-3.0-only"
+}
